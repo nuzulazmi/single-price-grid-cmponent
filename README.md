@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/profile/nuzulazmi/solutions)
-- Live Site URL: (https://nuzulazmi.github.io/product-preview-card/)
+- Live Site URL: (https://nuzulazmi.github.io/single-price-grid-cmponent/)
 
 ## My process
 
