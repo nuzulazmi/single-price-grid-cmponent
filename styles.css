@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    /* Primary */
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    /* Neutral */
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}   
+
+* {box-sizing: border-box;}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: var(--LightGray);
+}
+
+main {
+    width: max(70%, 300px);
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+main section {
+    padding: 2em;
+    font-size: 0.8em;
+    width: 100%;
+}
+
+main section h1 {margin: 0;}
+
+main section a {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    background-color: var(--BrightYellow);
+    text-decoration: none;
+    color: white;
+    border-radius: 0.5em;
+    box-shadow: 2px 10px 20px rgb(100, 99, 99);
+    transition: 0.5s ease;
+}
+
+main section a:hover {background-color: hsl(71, 48%, 42%);}
+
+main section span {
+    font-weight: 700;
+    font-size: 2em;
+    margin-right: 10px;
+    color: white;
+}
+
+@media (min-width: 1024px) {
+    main .straight {
+        display: flex;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
